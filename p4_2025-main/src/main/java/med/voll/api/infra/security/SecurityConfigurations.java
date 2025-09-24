@@ -31,6 +31,6 @@ public class SecurityConfigurations {
     }
 
     public PasswordEncoder passwordEncoder(){
-        return new BCryptPasswordEncoder();
+        return new BCryptPasswordEncoder(); // criptografa a senha para comparar
     }
 }
